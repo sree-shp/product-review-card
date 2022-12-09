@@ -1,0 +1,61 @@
+body{
+    background-color: #f3eae3;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.product-card{
+    
+    background-color: white;
+    margin: 25%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+}
+
+.perfume-image{
+    width: 50%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.product-details{
+    padding: 2% 5%;
+}
+
+.product-name{
+    font-size: 2.5rem;
+    font-family: 'Merriweather', serif;
+    /* font-weight: 900; */
+}
+
+.product-category{
+    color: #b5b4b9;
+}
+
+.product-description{
+    color: #8e8d91;
+    line-height: 1.5;
+    font-size: 1.25;
+}
+
+.product-current-price{
+    color: #3d8168
+}
+
+.btn {
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: Arial;
+    color: white;
+    font-size: 25px;
+    background: #3e8169;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #1a4031;
+    text-decoration: none;
+  }
